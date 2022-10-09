@@ -1,6 +1,13 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import {BsFillMoonStarsFill} from "react-icons/bs";
+import {AiFillLinkedin} from 'react-icons/ai';
+import Image from "next/image";
+import Data from '../public/data.svg';
+import Ar from '../public/ar.svg';
+import Finance from '../public/finance.svg';
+import Progress from '../public/progress.svg';
+
 
 export default function Home() {
   return (
@@ -11,7 +18,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="bg-white px-8">
+      <main className="bg-white px-8 md:px-20 lg:px-40">
         <section className="min-h-screen">
           <nav className="py-10 mb-15 flex justify-between">
             <h1 className="text-xl">DevKev</h1>
@@ -20,11 +27,63 @@ export default function Home() {
                 <BsFillMoonStarsFill className="cursor-pointer text-2xl" />
               </li>
               <li>
-                <a className="bg-blue-400 text-white px-2 py-1 rounded-sm ml-4" href="#">Mundo</a>
+                <a 
+                className="bg-blue-400 text-white px-2 py-1 rounded-sm ml-4" 
+                href="#">Mundo</a>
               </li>
             </ul>
           </nav>
+          <div className="text-center p-10">
+            <h2 className="text-2xl py2 text-sky-700 font-medium md:text-6xl">Kevin López Meza</h2>
+            <h3 className="text-2xl py-1 md:text-3xl">Frontend Developer.</h3>
+            <p className="text-md py-5 leading-6 text-gray-700 md:text-xl max-w-lg mx-auto">Hola bienvenido a mi portfolio, Welcome to my portfolio.</p>
+          </div>
+        {/* if add more icons, gap-16 */}
+          <div className=" text-4xl relative mx-auto flex justify-center py-2 w-10 h-10 hover:text-sky-700">
+            <AiFillLinkedin />
+          </div> 
         </section>
+      <section>
+        <div>
+          <h3 className="text-3xl text-center"> Tecnologías</h3>
+          <p className="text-md py-2 leading-8 text-gray-700">
+            Ingeniero en sistemas informáticos enfocado en: <span className="text-sky-700">Frontend</span>
+          </p>
+        </div>
+        <div>
+          <div className="text-center shadow-lg p-10 rounded-xl my-10">
+            <Image src={Data} width={100} height={100} alt="Programación" />
+            <h3>Java</h3>
+            <p className="py-2">
+            Ampliamente utilizado para codificar aplicaciones web. Ha sido una opción popular entre los desarrolladores durante más de dos décadas.
+            </p>
+            <p className="py-4 text-sky-700">Orientado a objetos</p>
+            <p>encapsulamiento</p>
+            <p>polimorfismo</p>
+
+          </div>
+        </div>
+      </section>
+<section>
+  <div>
+    <h3 className="text-3xl text-center">Portofolio</h3>
+    <p className="text-md py-2 leading-8 text-gray-700">
+            Los siguientes proyectos estan enfocados en el desarrollo web: 
+            <span className="text-sky-700">Frontend</span>
+          </p>
+  </div>
+  <div>
+    <div> 
+      <Image src={Ar} alt="Realidad aumentada" /> 
+      </div>
+      <div> 
+      <Image src={Finance} alt="Finanza" /> 
+      </div>
+      <div> 
+      <Image src={Progress} alt="Progreso" /> 
+      </div>
+  </div>
+</section>
       </main>
     </div>
   );
