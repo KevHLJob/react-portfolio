@@ -115,10 +115,10 @@ export default function Home() {
               <Image src={Imgdo} width={200} height={120} alt="Programación" />
               <h2 className="italic font-bold">To-do-list App</h2>
               <p className="py-2 text-justify">
-                Diseñado para organizar las tareas del dia a dia y con esto administrar el tiempo 
+                Diseñado para organizar las tareas del día a día y con esto administrar el tiempo 
                 adecuadamente es un una app demostrativa, puede ordenar las tareas finalizadas.
               </p>
-              <p className="py-4 text-sky-700">
+              <p className="py-4 text-sky-700 underline">
                 <a href="https://worklist-777.netlify.app/">Ver Página</a>
               </p>
               <p>HTML</p>
@@ -137,7 +137,7 @@ export default function Home() {
                 Dedicada a la muestra de los precios de las criptomonedas,
                 cuenta con 100 criptomonedas, información obtenida de coingecko.
               </p>
-              <p className="py-4 text-sky-700">
+              <p className="py-4 text-sky-700 underline">
                 <a href="https://criptoapp77.netlify.app/">Ver Página</a>
               </p>
 
@@ -158,7 +158,7 @@ export default function Home() {
                 Diseñada para consultar el total de casos y muertes por
                 COVID-19, enfocada en informar a la población.
               </p>
-              <p className="py-4 text-sky-700">
+              <p className="py-4 text-sky-700 underline">
                 <a href="https://covid-api-777.netlify.app/">Ver Página</a>
               </p>
               <p>CSS</p>
@@ -168,10 +168,10 @@ export default function Home() {
               <Image src={Imgneg} width={200} height={120} alt="Programación" />
               <h3 className="italic font-bold">Website de Servicios</h3>
               <p className="py-2 text-justify">
-                Desarrollado para como website para mostrar los servicios
+                Desarrollado como un website para mostrar los servicios
                 profesionales de un perfil en especifico.
               </p>
-              <p className="py-4 text-sky-700">
+              <p className="py-4 text-sky-700 underline">
                 <a href="https://wsd-service.netlify.app/">Ver Página</a>
               </p>
               <p>HTML</p>
@@ -187,13 +187,15 @@ export default function Home() {
                 Dedicado a codificar letras para una prueba del programa
                 internacional Alura Latam.
               </p>
-              <p className="py-4 text-sky-700">
+              <p className="py-4 text-sky-700 underline">
                 <a href="https://alura-test-encriptador.netlify.app/">
                   Ver Página
                 </a>
               </p>
               <p>HTML</p>
               <p>CSS</p>
+              <p>Javascript</p>
+
             </div>
           </div>
         </section>
