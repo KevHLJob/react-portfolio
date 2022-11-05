@@ -1,4 +1,6 @@
 import Head from "next/head";
+import Button from "@material-ui/core/Button";
+
 import styles from "../styles/Home.module.css";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
@@ -101,29 +103,57 @@ export default function Home() {
               <Image src={Imgnft} width={200} height={120} alt="Programación" />
               <h2 className="italic font-bold">NFT Website demo</h2>
               <p className="py-2 text-justify">
-                Idea enfocada en un activo digital encriptado, basado en la tendencia del mercado, 
-                se trata de un tipo especial de token criptográfico que representa algo único.
+                Idea enfocada en un activo digital encriptado, basado en la
+                tendencia del mercado, se trata de un tipo especial de token
+                criptográfico que representa algo único.
               </p>
-              <p className="py-4 text-sky-700 underline">
-                <a href="https://kevnftpage.netlify.app/">Ver Página</a>
-              </p>
-              <p>HTML</p>
-              <p>CSS</p>
-              <p>Javascript</p>
+              <Button
+                variant="contained"
+                color="primary"
+                href="https://kevnftpage.netlify.app/"
+              >
+                Ver Página
+              </Button>
+
+              <div className="py-2">
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>Javascript</p>
+              </div>
+
+              <div className="grid grid-cols-3 divide-x my-3">
+                <FaHtml5 className="text-4xl hover:text-cyan-600" />
+                <FaCss3 className="text-4xl hover:text-cyan-600" />
+                <SiJavascript className="text-4xl hover:text-cyan-600" />
+              </div>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
               <Image src={Imgdo} width={200} height={120} alt="Programación" />
               <h2 className="italic font-bold">To-do-list App</h2>
               <p className="py-2 text-justify">
-                Diseñado para organizar las tareas del día a día y con esto administrar el tiempo 
-                adecuadamente es un una app demostrativa, puede ordenar las tareas finalizadas.
+                Diseñado para organizar las tareas del día a día y con esto
+                administrar el tiempo adecuadamente es un una app demostrativa,
+                puede ordenar las tareas finalizadas.
               </p>
-              <p className="py-4 text-sky-700 underline">
-                <a href="https://worklist-777.netlify.app/">Ver Página</a>
-              </p>
-              <p>HTML</p>
-              <p>CSS</p>
-              <p>Javascript</p>
+              <Button
+                variant="contained"
+                color="primary"
+                href="https://worklist-777.netlify.app/"
+              >
+                Ver Página
+              </Button>
+
+              <div className="py-2">
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>Javascript</p>
+              </div>
+
+              <div className="grid grid-cols-3 divide-x my-3">
+                <FaHtml5 className="text-4xl hover:text-cyan-600" />
+                <FaCss3 className="text-4xl hover:text-cyan-600" />
+                <SiJavascript className="text-4xl hover:text-cyan-600" />
+              </div>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
               <Image
@@ -137,12 +167,25 @@ export default function Home() {
                 Dedicada a la muestra de los precios de las criptomonedas,
                 cuenta con 100 criptomonedas, información obtenida de coingecko.
               </p>
-              <p className="py-4 text-sky-700 underline">
-                <a href="https://criptoapp77.netlify.app/">Ver Página</a>
-              </p>
+              <Button
+                variant="contained"
+                color="primary"
+                href="https://criptoapp77.netlify.app/"
+              >
+                Ver Página
+              </Button>
 
-              <p>CSS</p>
-              <p>Vue.js</p>
+              <div className="py-2">
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>Vue.js</p>
+              </div>
+
+              <div className="grid grid-cols-3 divide-x my-3">
+                <FaHtml5 className="text-4xl hover:text-cyan-600" />
+                <FaCss3 className="text-4xl hover:text-cyan-600" />
+                <FaVuejs className="text-4xl hover:text-cyan-600" />
+              </div>
             </div>
           </div>
           <div className="lg:flex gap-10">
@@ -158,11 +201,25 @@ export default function Home() {
                 Diseñada para consultar el total de casos y muertes por
                 COVID-19, enfocada en informar a la población.
               </p>
-              <p className="py-4 text-sky-700 underline">
-                <a href="https://covid-api-777.netlify.app/">Ver Página</a>
-              </p>
-              <p>CSS</p>
-              <p>Vue.js</p>
+              <Button
+                variant="contained"
+                color="primary"
+                href="https://covid-api-777.netlify.app/"
+              >
+                Ver Página
+              </Button>
+
+              <div className="py-2">
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>Vue.js</p>
+              </div>
+
+              <div className="grid grid-cols-3 divide-x my-3">
+                <FaHtml5 className="text-4xl hover:text-cyan-600" />
+                <FaCss3 className="text-4xl hover:text-cyan-600" />
+                <FaVuejs className="text-4xl hover:text-cyan-600" />
+              </div>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
               <Image src={Imgneg} width={200} height={120} alt="Programación" />
@@ -171,12 +228,24 @@ export default function Home() {
                 Desarrollado como un website para mostrar los servicios
                 profesionales de un perfil en especifico.
               </p>
-              <p className="py-4 text-sky-700 underline">
-                <a href="https://wsd-service.netlify.app/">Ver Página</a>
-              </p>
-              <p>HTML</p>
-              <p>CSS</p>
-              <p>Javascript</p>
+              <Button
+                variant="contained"
+                color="primary"
+                href="https://wsd-service.netlify.app/"
+              >
+                Ver Página
+              </Button>
+
+              <div className="py-2">
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>Javascript</p>
+              </div>
+              <div className="grid grid-cols-3 divide-x my-3">
+                <FaHtml5 className="text-4xl hover:text-cyan-600" />
+                <FaCss3 className="text-4xl hover:text-cyan-600" />
+                <SiJavascript className="text-4xl hover:text-cyan-600" />
+              </div>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
               <Image src={Imgcod} width={200} height={120} alt="Programación" />
@@ -187,19 +256,29 @@ export default function Home() {
                 Dedicado a codificar letras para una prueba del programa
                 internacional Alura Latam.
               </p>
-              <p className="py-4 text-sky-700 underline">
-                <a href="https://alura-test-encriptador.netlify.app/">
-                  Ver Página
-                </a>
-              </p>
-              <p>HTML</p>
-              <p>CSS</p>
-              <p>Javascript</p>
+              <Button
+                variant="contained"
+                color="primary"
+                href="https://alura-test-encriptador.netlify.app/"
+              >
+                Ver Página
+              </Button>
 
+              <div className="py-2">
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>Javascript</p>
+              </div>
+
+              <div className="grid grid-cols-3 divide-x my-3">
+                <FaHtml5 className="text-4xl hover:text-cyan-600" />
+                <FaCss3 className="text-4xl hover:text-cyan-600" />
+                <SiJavascript className="text-4xl hover:text-cyan-600" />
+              </div>
             </div>
           </div>
         </section>
-        {/* Portfolio de proyectos */}
+        {/* end Portfolio de proyectos */}
 
         <section>
           <div>
