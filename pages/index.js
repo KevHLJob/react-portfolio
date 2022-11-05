@@ -285,7 +285,7 @@ export default function Home() {
             <h3 className="text-center text-4xl dark:text-slate-50">
               Tecnologías
             </h3>
-            <div class="grid grid-cols-4 gap-4 place-items-center h-56 ...">
+            <div className="grid grid-cols-4 gap-4 place-items-center h-56 ...">
               <div>
                 <FaHtml5 className="text-6xl dark:text-stone-50" />
               </div>
