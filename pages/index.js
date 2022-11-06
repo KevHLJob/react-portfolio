@@ -1,7 +1,5 @@
 import Head from "next/head";
 import Button from "@material-ui/core/Button";
-
-import styles from "../styles/Home.module.css";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import {
